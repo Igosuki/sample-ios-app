@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71B924721323F819008EAC72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B924711323F819008EAC72 /* UIKit.framework */; };
+		71B924741323F819008EAC72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B924731323F819008EAC72 /* Foundation.framework */; };
+		71B924761323F819008EAC72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B924751323F819008EAC72 /* CoreGraphics.framework */; };
+		71B924781323F819008EAC72 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B924771323F819008EAC72 /* CoreData.framework */; };
+		71B9247E1323F819008EAC72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71B9247C1323F819008EAC72 /* InfoPlist.strings */; };
+		71B924811323F819008EAC72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B924801323F819008EAC72 /* main.m */; };
+		71B924841323F819008EAC72 /* NvpViewerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B924831323F819008EAC72 /* NvpViewerAppDelegate.m */; };
+		71B924871323F819008EAC72 /* NvpViewer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71B924851323F819008EAC72 /* NvpViewer.xcdatamodeld */; };
+		71B9248A1323F819008EAC72 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71B924881323F819008EAC72 /* MainWindow.xib */; };
+		71B9248D1323F819008EAC72 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B9248C1323F819008EAC72 /* RootViewController.m */; };
+		71B924901323F819008EAC72 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71B9248E1323F819008EAC72 /* RootViewController.xib */; };
+		71B924971323F819008EAC72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B924711323F819008EAC72 /* UIKit.framework */; };
+		71B924981323F819008EAC72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B924731323F819008EAC72 /* Foundation.framework */; };
+		71B924991323F819008EAC72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B924751323F819008EAC72 /* CoreGraphics.framework */; };
+		71B9249A1323F819008EAC72 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B924771323F819008EAC72 /* CoreData.framework */; };
+		71B924A21323F819008EAC72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71B924A01323F819008EAC72 /* InfoPlist.strings */; };
+		71B924A51323F819008EAC72 /* NvpViewerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 71B924A41323F819008EAC72 /* NvpViewerTests.h */; };
+		71B924A71323F819008EAC72 /* NvpViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B924A61323F819008EAC72 /* NvpViewerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71B9249B1323F819008EAC72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71B924641323F818008EAC72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71B9246C1323F818008EAC72;
+			remoteInfo = NvpViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71B9246D1323F819008EAC72 /* NvpViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NvpViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B924711323F819008EAC72 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		71B924731323F819008EAC72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		71B924751323F819008EAC72 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		71B924771323F819008EAC72 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		71B9247B1323F819008EAC72 /* NvpViewer-Info.plist */ = {isa = PBXFileReference; path = "NvpViewer-Info.plist"; sourceTree = "<group>"; };
+		71B9247D1323F819008EAC72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		71B9247F1323F819008EAC72 /* NvpViewer-Prefix.pch */ = {isa = PBXFileReference; path = "NvpViewer-Prefix.pch"; sourceTree = "<group>"; };
+		71B924801323F819008EAC72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71B924821323F819008EAC72 /* NvpViewerAppDelegate.h */ = {isa = PBXFileReference; path = NvpViewerAppDelegate.h; sourceTree = "<group>"; };
+		71B924831323F819008EAC72 /* NvpViewerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NvpViewerAppDelegate.m; sourceTree = "<group>"; };
+		71B924861323F819008EAC72 /* NvpViewer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NvpViewer.xcdatamodel; sourceTree = "<group>"; };
+		71B924891323F819008EAC72 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		71B9248B1323F819008EAC72 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		71B9248C1323F819008EAC72 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		71B9248F1323F819008EAC72 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		71B924961323F819008EAC72 /* NvpViewerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NvpViewerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B9249F1323F819008EAC72 /* NvpViewerTests-Info.plist */ = {isa = PBXFileReference; path = "NvpViewerTests-Info.plist"; sourceTree = "<group>"; };
+		71B924A11323F819008EAC72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		71B924A31323F819008EAC72 /* NvpViewerTests-Prefix.pch */ = {isa = PBXFileReference; path = "NvpViewerTests-Prefix.pch"; sourceTree = "<group>"; };
+		71B924A41323F819008EAC72 /* NvpViewerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NvpViewerTests.h; sourceTree = "<group>"; };
+		71B924A61323F819008EAC72 /* NvpViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NvpViewerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71B9246A1323F818008EAC72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B924721323F819008EAC72 /* UIKit.framework in Frameworks */,
+				71B924741323F819008EAC72 /* Foundation.framework in Frameworks */,
+				71B924761323F819008EAC72 /* CoreGraphics.framework in Frameworks */,
+				71B924781323F819008EAC72 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B924921323F819008EAC72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B924971323F819008EAC72 /* UIKit.framework in Frameworks */,
+				71B924981323F819008EAC72 /* Foundation.framework in Frameworks */,
+				71B924991323F819008EAC72 /* CoreGraphics.framework in Frameworks */,
+				71B9249A1323F819008EAC72 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71B924621323F818008EAC72 = {
+			isa = PBXGroup;
+			children = (
+				71B924791323F819008EAC72 /* NvpViewer */,
+				71B9249D1323F819008EAC72 /* NvpViewerTests */,
+				71B924701323F819008EAC72 /* Frameworks */,
+				71B9246E1323F819008EAC72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71B9246E1323F819008EAC72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71B9246D1323F819008EAC72 /* NvpViewer.app */,
+				71B924961323F819008EAC72 /* NvpViewerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71B924701323F819008EAC72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71B924711323F819008EAC72 /* UIKit.framework */,
+				71B924731323F819008EAC72 /* Foundation.framework */,
+				71B924751323F819008EAC72 /* CoreGraphics.framework */,
+				71B924771323F819008EAC72 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71B924791323F819008EAC72 /* NvpViewer */ = {
+			isa = PBXGroup;
+			children = (
+				71B924821323F819008EAC72 /* NvpViewerAppDelegate.h */,
+				71B924831323F819008EAC72 /* NvpViewerAppDelegate.m */,
+				71B924881323F819008EAC72 /* MainWindow.xib */,
+				71B9248B1323F819008EAC72 /* RootViewController.h */,
+				71B9248C1323F819008EAC72 /* RootViewController.m */,
+				71B9248E1323F819008EAC72 /* RootViewController.xib */,
+				71B924851323F819008EAC72 /* NvpViewer.xcdatamodeld */,
+				71B9247A1323F819008EAC72 /* Supporting Files */,
+			);
+			path = NvpViewer;
+			sourceTree = "<group>";
+		};
+		71B9247A1323F819008EAC72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71B9247B1323F819008EAC72 /* NvpViewer-Info.plist */,
+				71B9247C1323F819008EAC72 /* InfoPlist.strings */,
+				71B9247F1323F819008EAC72 /* NvpViewer-Prefix.pch */,
+				71B924801323F819008EAC72 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71B9249D1323F819008EAC72 /* NvpViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				71B924A41323F819008EAC72 /* NvpViewerTests.h */,
+				71B924A61323F819008EAC72 /* NvpViewerTests.m */,
+				71B9249E1323F819008EAC72 /* Supporting Files */,
+			);
+			path = NvpViewerTests;
+			sourceTree = "<group>";
+		};
+		71B9249E1323F819008EAC72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71B9249F1323F819008EAC72 /* NvpViewerTests-Info.plist */,
+				71B924A01323F819008EAC72 /* InfoPlist.strings */,
+				71B924A31323F819008EAC72 /* NvpViewerTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71B9246C1323F818008EAC72 /* NvpViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71B924AA1323F819008EAC72 /* Build configuration list for PBXNativeTarget "NvpViewer" */;
+			buildPhases = (
+				71B924691323F818008EAC72 /* Sources */,
+				71B9246A1323F818008EAC72 /* Frameworks */,
+				71B9246B1323F818008EAC72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NvpViewer;
+			productName = NvpViewer;
+			productReference = 71B9246D1323F819008EAC72 /* NvpViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71B924951323F819008EAC72 /* NvpViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71B924AD1323F819008EAC72 /* Build configuration list for PBXNativeTarget "NvpViewerTests" */;
+			buildPhases = (
+				71B924911323F819008EAC72 /* Sources */,
+				71B924921323F819008EAC72 /* Frameworks */,
+				71B924931323F819008EAC72 /* Resources */,
+				71B924941323F819008EAC72 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71B9249C1323F819008EAC72 /* PBXTargetDependency */,
+			);
+			name = NvpViewerTests;
+			productName = NvpViewerTests;
+			productReference = 71B924961323F819008EAC72 /* NvpViewerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71B924641323F818008EAC72 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 71B924671323F818008EAC72 /* Build configuration list for PBXProject "NvpViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 71B924621323F818008EAC72;
+			productRefGroup = 71B9246E1323F819008EAC72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71B9246C1323F818008EAC72 /* NvpViewer */,
+				71B924951323F819008EAC72 /* NvpViewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71B9246B1323F818008EAC72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B9247E1323F819008EAC72 /* InfoPlist.strings in Resources */,
+				71B9248A1323F819008EAC72 /* MainWindow.xib in Resources */,
+				71B924901323F819008EAC72 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B924931323F819008EAC72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B924A21323F819008EAC72 /* InfoPlist.strings in Resources */,
+				71B924A51323F819008EAC72 /* NvpViewerTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71B924941323F819008EAC72 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71B924691323F818008EAC72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B924811323F819008EAC72 /* main.m in Sources */,
+				71B924841323F819008EAC72 /* NvpViewerAppDelegate.m in Sources */,
+				71B924871323F819008EAC72 /* NvpViewer.xcdatamodeld in Sources */,
+				71B9248D1323F819008EAC72 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B924911323F819008EAC72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B924A71323F819008EAC72 /* NvpViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71B9249C1323F819008EAC72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71B9246C1323F818008EAC72 /* NvpViewer */;
+			targetProxy = 71B9249B1323F819008EAC72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71B9247C1323F819008EAC72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71B9247D1323F819008EAC72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		71B924881323F819008EAC72 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71B924891323F819008EAC72 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		71B9248E1323F819008EAC72 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71B9248F1323F819008EAC72 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		71B924A01323F819008EAC72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71B924A11323F819008EAC72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71B924A81323F819008EAC72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71B924A91323F819008EAC72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		71B924AB1323F819008EAC72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NvpViewer/NvpViewer-Prefix.pch";
+				INFOPLIST_FILE = "NvpViewer/NvpViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		71B924AC1323F819008EAC72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NvpViewer/NvpViewer-Prefix.pch";
+				INFOPLIST_FILE = "NvpViewer/NvpViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		71B924AE1323F819008EAC72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NvpViewer.app/NvpViewer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NvpViewerTests/NvpViewerTests-Prefix.pch";
+				INFOPLIST_FILE = "NvpViewerTests/NvpViewerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		71B924AF1323F819008EAC72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NvpViewer.app/NvpViewer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NvpViewerTests/NvpViewerTests-Prefix.pch";
+				INFOPLIST_FILE = "NvpViewerTests/NvpViewerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71B924671323F818008EAC72 /* Build configuration list for PBXProject "NvpViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B924A81323F819008EAC72 /* Debug */,
+				71B924A91323F819008EAC72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71B924AA1323F819008EAC72 /* Build configuration list for PBXNativeTarget "NvpViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B924AB1323F819008EAC72 /* Debug */,
+				71B924AC1323F819008EAC72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		71B924AD1323F819008EAC72 /* Build configuration list for PBXNativeTarget "NvpViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B924AE1323F819008EAC72 /* Debug */,
+				71B924AF1323F819008EAC72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		71B924851323F819008EAC72 /* NvpViewer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				71B924861323F819008EAC72 /* NvpViewer.xcdatamodel */,
+			);
+			currentVersion = 71B924861323F819008EAC72 /* NvpViewer.xcdatamodel */;
+			path = NvpViewer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 71B924641323F818008EAC72 /* Project object */;
+}
